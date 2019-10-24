@@ -1,7 +1,7 @@
 const int pumpPin = 9;    //This is the number of the pin that the pump is connected to
 int pumpState = LOW;      //Pump initial state
 long previousMillis = 0;  //Will store the last time the pump was updated
-long onInterval = 4000UL; // 2 minute intervalls
+long onInterval = 4000UL; // 3 seconds on, 1 second off
 long offInterval = 1000UL;
 
 void setup()
